@@ -1,8 +1,9 @@
 window.onload = function () {
     function calculadora () {
     document.querySelector("#btn").addEventListener('click', () => {
-        document.querySelector("#valor").innerHTML = `Valor a receber: ${document.querySelector('#inp').value - document.querySelector('#inp').value * 17.5 / 100}`;
-        // const segundo = primeiro * 100
+        const calculo = document.querySelector('#inp').value - document.querySelector('#inp').value * 17.5 / 100;
+        const calcRounded = calculo.toFixed(2);
+        document.querySelector("#valor").innerHTML = `Valor a receber: <b>R$ ${calcRounded}</b>`;
         document.querySelector("#inp").value = '';
 })
 }

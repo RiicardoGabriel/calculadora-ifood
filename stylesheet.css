@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Barrio;
+    src: url(../fonts/Barrio-Regular.ttf)
+  }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#valor {
+    font-size: 18px;
+}
+
+#inp {
+    padding: 5px;
+    border: 2px solid #cccccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#inp:focus {
+    border: 1px solid black;
+}
+
+#btn {
+    margin-left: 7px;
+    padding: 5px 15px;
+    background: #99e0b2;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    border: 1px solid black;
+}
+
+#sec {
+    background-color: #F8F3FF;
+}

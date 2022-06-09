@@ -5,6 +5,16 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+#container-geral {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #valor {
@@ -38,4 +48,30 @@ body {
 
 #sec {
     background-color: #F8F3FF;
+}
+
+#rodape {
+    font-size: 12px;
+}
+
+#link {
+    color: #141414;
+    background-color: #99e0b2;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    body {
+        background-color: rgb(232, 232, 232);
+        text-align: center;
+    }
+    #inp {
+        width: 150px;
+    }
+    #btn {
+        width: 100px;
+        height: 30px;
+        font-weight: bold;
+    }
 }

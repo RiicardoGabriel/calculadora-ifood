@@ -10,6 +10,7 @@ function calculadora () {
 function apagarInpt () {
     document.querySelector("#btn").addEventListener('click', () => {
         document.querySelector("#inp").value = '';
+        document.querySelector("#valor").innerHTML = '';
     })
 }
 
